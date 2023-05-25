@@ -73,6 +73,7 @@ h3 {
 #interests p {
     font-family: 'Arimo', sans-serif;
     font-size: 1.25rem;
+    text-align: center;
 }
 
 .row {
@@ -82,6 +83,7 @@ h3 {
 
 #resume p, .btn{
     font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 #features p, .btn{
@@ -128,4 +130,14 @@ span {
 
 .contact_div {
     background-color: #F8F9FA;
+}
+
+@media (max-width: 700px){
+    #interests p{
+        text-align: justify;
+    }
+
+    #resume p{
+        text-align: justify;
+    }
 }
